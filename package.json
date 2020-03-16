@@ -8,21 +8,24 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@types/react-dom": "^16.9.5",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "^3.4.0",
-    "typescript": "^3.8.3",
-    "uuid": "^7.0.2"
+    "uuidv4": "^6.0.6"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "browserslist": [
-    "> 1%", 
+    "> 1%",
     "IE 10"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.8.3"
+  }
 }
